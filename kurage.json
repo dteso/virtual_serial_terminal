@@ -1,0 +1,1 @@
+{"project":"KurageProject","git":true,"swagger":true,"jwt":true,"jwt-middelware":true,"jwt-model":"Auth","ts":true,"db":"sql","modelNameIndex":0,"models":["device"]}
