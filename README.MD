@@ -1,4 +1,34 @@
 
+# UTILIZAR ESTE PROYECTO
+
+## INSTALACIÓN Y ARRANQUE
+
+    1. npm install
+
+    2. crear fichero.env con una variable
+
+        PORT=3003 // o el que se considere
+
+    2. tsc // o tsc --watch en consola a parte
+
+    3. node .\dist\app.js
+
+    4. En la consola se mostrará la siguiente información:
+
+    [INFO] STARTING NODE-TS SERVER
+    [WS_RUNNING] Sockets Server corriendo en el puerto 4443
+    [SUCCESS] SERVER RUNNING ON PORT: 3003
+    [INFO] Swagger Docs available at http://localhost:3003/api/v1/docs
+    Getting available ports
+
+## SWAGGER
+
+Se exponen algunos endpoints para el control del puerto serie así como para lanzar la carga de programas en las placas.
+
+![alt text](image.png)
+
+
+
 # ESPTOOLS INTERNAL COMMANDS
 
 ## Comprobar información de la placa 
